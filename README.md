@@ -1,38 +1,41 @@
+# Challenge Foro Hub
 
-## Challenge Foro Hub
+El **Challenge Foro Hub** es un proyecto del curso de Java y Spring Boot ofrecido por Alura/Oracle. Consiste en desarrollar una API REST que emula un foro para resolver dudas relacionadas con diversos cursos. La aplicación permite gestionar tópicos, respuestas, cursos y usuarios.
 
-Proyecto Challenge del curso de Java y Spring Boot de Alura/Oracle. El mismo consiste en una API Rest que simula un foro para resolver dudas relacionadas a ciertos cursos. El foro tiene sus tópicos, respuestas de los tópicos, cursos y usuarios.
+## Objetivo
 
-Este es nuestro desafío, llamado ForoHub: en él, vamos a replicar este proceso a nivel de back end y, para eso, crearemos una API REST usando Spring.
+El objetivo principal es implementar una API REST que permita a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los tópicos del foro. Las funcionalidades incluyen:
 
-Nuestra API se centrará específicamente en los tópicos, y debe permitir a los usuarios:
+- **Crear** un nuevo tópico.
+- **Listar** todos los tópicos existentes.
+- **Visualizar** un tópico específico.
+- **Actualizar** un tópico existente.
+- **Eliminar** un tópico.
 
-- Crear un nuevo tópico;
-- Mostrar todos los tópicos creados;
-- Mostrar un tópico específico;
-- Actualizar un tópico;
-- Eliminar un tópico.
-- Es lo que normalmente conocemos como CRUD* (CREATE, READ, UPDATE, DELETE) y es muy similar a lo que desarrollamos en LiterAlura, pero ahora de forma completa, agregando las operaciones de UPDATE y DELETE, y usando un framework que facilitará mucho nuestro trabajo.
+Para desarrollar este proyecto, utilizaremos **Java** y el framework **Spring Boot**.
 
-### Traducción libre (en orden): Crear, Consultar, Actualizar y Eliminar.
+## Funcionalidades de la API
 
-## En resumen, nuestro objetivo con este challenge es implementar una API REST con las siguientes funcionalidades:
+- Rutas implementadas siguiendo las mejores prácticas del modelo REST.
+- Validaciones realizadas según las reglas de negocio.
+- Implementación de una base de datos relacional para la persistencia de datos.
+- Servicio de autenticación y autorización para restringir el acceso a la información.
 
-- API con rutas implementadas siguiendo las mejores prácticas del modelo REST;
-- Validaciones realizadas según las reglas de negocio;
-- Implementación de una base de datos relacional para la persistencia de la información;
-- Servicio de autenticación/autorización para restringir el acceso a la información.
+## Organización del proyecto
 
-### ¡Manos a la obra!
+Para facilitar la organización y el seguimiento del desarrollo, se recomienda emplear herramientas de gestión ágil como **Trello**. Una posible configuración de las columnas en Trello sería:
 
-En esta ocasión, también ponemos a tu disposición el diagrama de la base de datos del proyecto para ayudarte a implementarlo. No olvides que también puedes usar tu creatividad y hacer las modificaciones que consideres convenientes. Una vez más, usaremos el sistema de desarrollo ágil, utilizando Trello de la siguiente manera:
+- **Listo para iniciar**: Tareas pendientes por desarrollar.
+- **En desarrollo**: Tareas en proceso de desarrollo.
+- **Pausado**: Tareas iniciadas pero detenidas temporalmente.
+- **Concluido**: Tareas completadas.
 
-- La columna Listo para iniciar presenta las tarjetas con elementos que aún no han sido desarrollados.
-- En la columna En Desarrollo estarán los elementos que estás desarrollando actualmente. Al comenzar una tarea, podrás mover la tarjeta que contiene esa tarea a esta columna.
-- En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero tuviste que detener por algún motivo.
-- Por último, en la columna Concluido estarán los elementos ya completados.
-- Trello es una herramienta que te ayudará a seguir el progreso de tus actividades, pero no será evaluada.
+Trello no será evaluado, pero es una herramienta que puede ayudarte a gestionar tus actividades y monitorear el progreso.
 
-# Creditos
+## Recursos adicionales
 
-Este proyecto fue desarrollado por Alejandro Herrera.
+En esta ocasión, también ponemos a tu disposición el **diagrama de la base de datos** del proyecto para ayudarte en su implementación. No olvides que puedes usar tu creatividad para realizar modificaciones y mejoras.
+
+## Créditos
+
+Este proyecto fue desarrollado por **Saul Alvarado Diamond**.
